@@ -14,4 +14,8 @@
         register_nav_menu( 'secondary', 'Bottom Navigation' );
     }
     add_action('init', 'empty_theme_setup');
+
+    add_theme_support('custom-background');
+    add_theme_support('custom-header');
+    add_theme_support('post-thumbnails');
 ?>
