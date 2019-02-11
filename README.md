@@ -1,1 +1,1 @@
-WordPressEmptyTheme
+EmptyTheme
