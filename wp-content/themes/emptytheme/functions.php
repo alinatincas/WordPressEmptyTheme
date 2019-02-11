@@ -58,6 +58,9 @@
 
     //post-formats
     add_theme_support( 'post-formats', array( 'aside', 'image' ) );
+    
+    //html5
+    add_theme_support('html5', array('search-form'));
 
     //logo
     add_theme_support( 'custom-logo', array(
