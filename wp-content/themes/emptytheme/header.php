@@ -7,5 +7,12 @@
         <title>Empty Theme</title>
         <?php wp_head(); ?>
     </head>
-    <body>
+    <?php
+        if(is_front_page()):
+            $theme_classes = array('theme-class');
+        else:
+            $theme_classes = array('no-theme-class');
+        endif;
+    ?>
+    <body <?php body_class( $theme_classes ); ?> >
         <?php wp_nav_menu(array('theme_location'=>'primary')); ?> 
