@@ -37,7 +37,7 @@
                 </div>   
                 <div class="col-md-9">
                         <!-- show the nav menu-->
-                        <?php wp_nav_menu(array('theme_location'=>'primary')); ?> 
+                        <!--?php wp_nav_menu(array('theme_location'=>'primary')); ?> -->
                 </div>
             </div>
             <div class="row">
