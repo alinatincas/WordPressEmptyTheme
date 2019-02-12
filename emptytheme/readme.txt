@@ -1,8 +1,8 @@
 The "EmptyTheme" folder includes the followings:
--> css folder: (svanentheme_style.css)
+-> css folder: (emptytheme_style.css)
 This file contains some styling for the wordpress theme.
 
--> js folder: svanentheme.js
+-> js folder: emptytheme.js
 This file includes some scripts for the wordpress theme.
 
 -> 404.php
